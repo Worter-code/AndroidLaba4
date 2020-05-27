@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="140dp"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:id="@+id/contentFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="3dp">
+
+        <ImageView
+            android:id="@+id/backIv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="@drawable/widget_back" />
+
+        <TextView
+            android:id="@+id/dayTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+
+            android:text="Days Left"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/pt_sans"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/counterTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="-14dp"
+            android:paddingBottom="0dp"
+            android:layout_gravity="bottom"
+
+            android:fontFamily="@font/russo_one"
+            android:text="14"
+            android:textAlignment="center"
+            android:textColor="#5a5a5a"
+            android:textSize="95sp" />
+
+    </FrameLayout>
+
+</RelativeLayout>
